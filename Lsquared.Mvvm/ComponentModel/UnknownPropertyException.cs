@@ -8,8 +8,6 @@ using System.Runtime.Serialization;
 
 namespace Lsquared.ComponentModel
 {
-#if DEBUG
-
     /// <summary>
     /// Represents the unknown property exception.
     /// </summary>
@@ -75,6 +73,4 @@ namespace Lsquared.ComponentModel
             base.GetObjectData(info, context);
         }
     }
-
-#endif
 }
