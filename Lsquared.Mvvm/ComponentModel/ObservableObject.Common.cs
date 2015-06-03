@@ -6,6 +6,9 @@ using System.Diagnostics;
 
 namespace Lsquared.ComponentModel
 {
+    /// <content>
+    /// Contains partial methods for full .Net framework.
+    /// </content>
     partial class ObservableObject
     {
         [Conditional("DEBUG")]

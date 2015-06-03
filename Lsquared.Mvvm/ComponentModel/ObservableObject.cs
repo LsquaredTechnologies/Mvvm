@@ -10,18 +10,33 @@ using System.Runtime.CompilerServices;
 
 namespace Lsquared.ComponentModel
 {
+    /// <summary>
+    /// Represents a base class for observable objects.
+    /// </summary>
     public abstract partial class ObservableObject : DisposableObject, INotifyPropertyChanged, INotifyPropertyChanging
     {
+        /// <summary>
+        /// All properties.
+        /// </summary>
         public const string All = "*";
 
+        /// <summary>
+        /// Occurs when a property value changes.
+        /// </summary>
         [field: NonSerialized]
         public event PropertyChangedEventHandler PropertyChanged;
 
+        /// <summary>
+        /// Occurs when a property value is changing.
+        /// </summary>
         [field: NonSerialized]
         public event PropertyChangingEventHandler PropertyChanging;
 
         #region Initializers
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ObservableObject"/> class.
+        /// </summary>
         protected ObservableObject()
         {
         }
