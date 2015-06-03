@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lsquared.Mvvm", "Lsquared.Mvvm\Lsquared.Mvvm.csproj", "{69BC3DDE-606E-4E7B-8D6C-5B52C249FC0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD2E3B09-DF2C-4BA4-AC70-E50ABC3CA103}"
+	ProjectSection(SolutionItems) = preProject
+		.customdictionary = .customdictionary
+		.editorconfig = .editorconfig
+		Mvvm.ruleset = Mvvm.ruleset
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lsquared.Mvvm.Abstractions", "Lsquared.Mvvm.Abstractions\Lsquared.Mvvm.Abstractions.csproj", "{7952A210-6275-49B0-B6FC-93430F23E4E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69BC3DDE-606E-4E7B-8D6C-5B52C249FC0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69BC3DDE-606E-4E7B-8D6C-5B52C249FC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69BC3DDE-606E-4E7B-8D6C-5B52C249FC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69BC3DDE-606E-4E7B-8D6C-5B52C249FC0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7952A210-6275-49B0-B6FC-93430F23E4E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7952A210-6275-49B0-B6FC-93430F23E4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7952A210-6275-49B0-B6FC-93430F23E4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7952A210-6275-49B0-B6FC-93430F23E4E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
