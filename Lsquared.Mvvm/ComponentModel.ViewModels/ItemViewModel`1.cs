@@ -1,4 +1,4 @@
-// <copyright file="ItemViewModel`2.cs" company="LSQUARED">
+// <copyright file="ItemViewModel`1.cs" company="LSQUARED">
 // Copyright © 2008-2015
 // </copyright>
 

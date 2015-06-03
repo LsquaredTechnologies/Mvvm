@@ -3,16 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lsquared.Mvvm", "Lsquared.Mvvm\Lsquared.Mvvm.csproj", "{69BC3DDE-606E-4E7B-8D6C-5B52C249FC0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lsquared.Mvvm-net45", "Lsquared.Mvvm\Lsquared.Mvvm-net45.csproj", "{69BC3DDE-606E-4E7B-8D6C-5B52C249FC0E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD2E3B09-DF2C-4BA4-AC70-E50ABC3CA103}"
 	ProjectSection(SolutionItems) = preProject
 		.customdictionary = .customdictionary
 		.editorconfig = .editorconfig
+		..\Common\CompanyInfo.cs = ..\Common\CompanyInfo.cs
+		Common\Lsquared.licenseheader = Common\Lsquared.licenseheader
+		Common\Lsquared.Product.props = Common\Lsquared.Product.props
+		Common\Lsquared.props = Common\Lsquared.props
 		Mvvm.ruleset = Mvvm.ruleset
+		Common\VersionInfo.cs = Common\VersionInfo.cs
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lsquared.Mvvm.Abstractions", "Lsquared.Mvvm.Abstractions\Lsquared.Mvvm.Abstractions.csproj", "{7952A210-6275-49B0-B6FC-93430F23E4E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lsquared.Mvvm.Abstractions-net45", "Lsquared.Mvvm.Abstractions\Lsquared.Mvvm.Abstractions-net45.csproj", "{7952A210-6275-49B0-B6FC-93430F23E4E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

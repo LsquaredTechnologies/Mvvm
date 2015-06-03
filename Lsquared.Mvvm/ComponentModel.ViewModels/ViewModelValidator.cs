@@ -1,5 +1,5 @@
 // <copyright file="ViewModelValidator.cs" company="LSQUARED">
-// Copyright © 2008-2014
+// Copyright © 2008-2015
 // </copyright>
 
 using System.Collections.Generic;
